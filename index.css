@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
-.nav-menu {
+.nav {
+    background-color: darkgray;
+    padding: 5px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .nav-menu {
     width:70%
 }
+
+.nav-menu ul {
+    display: ;
+} */
