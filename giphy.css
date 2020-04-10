@@ -26,3 +26,8 @@
 .nav-menu{
     width: 70%;
 }
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
