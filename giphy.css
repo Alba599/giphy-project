@@ -39,3 +39,16 @@ li {
     list-style-type: none;
     cursor: pointer;
 }
+
+/* .nav-menu ul li{
+    padding: 10px 20px;
+    color: #ccc;
+    font-size: 20px;
+    list-style-type: none;
+    cursor: pointer;
+} */
+
+.nav-menu ul li:hover{
+    color: #fff;
+    font-weight: bold;
+}
