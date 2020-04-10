@@ -92,6 +92,18 @@ a:hover{
 
 
 
+/*Tablet Menu */
+
+@media all and (min-width:460px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex:1;
+    }
+    
+}
+
 
 
 
