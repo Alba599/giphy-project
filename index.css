@@ -46,6 +46,21 @@ a:hover{
     align-items: center;
 }
 
+.toggle{
+    order:1;
+}
+
+.item{
+    width:100%;
+    text-align: center;
+    order: 2;
+    /* display:none; */
+}
+
+.item.active{
+    display:block;
+}
+
 .toggle {
     cursor: pointer;
 }
