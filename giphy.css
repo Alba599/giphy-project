@@ -31,3 +31,11 @@ ul {
     display: flex;
     justify-content: flex-end;
 }
+
+li {
+    padding: 10px 20px;
+    color: #ccc;
+    font-size: 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
