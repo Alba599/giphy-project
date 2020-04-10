@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    background: black;
+    color: white;
+    font-family: sans-serif;
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: baseline;
+}
+
+.nav-title{
+    width: 30%;
+    background: black;
+    padding: 16px 40px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-menu{
+    width: 70%;
+}
