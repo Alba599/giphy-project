@@ -52,3 +52,14 @@ li {
     color: #fff;
     font-weight: bold;
 }
+
+@media screen and (max-width:640px) {
+    .nav .nav-title{
+        text-align: center;
+        width: 100%;
+    }
+    .nav .nav-menu li {
+        width: 100%;
+        text-align: center;
+    }
+}
