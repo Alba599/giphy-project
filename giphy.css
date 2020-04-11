@@ -70,7 +70,14 @@ p {
 .textBox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     padding-left: 30px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin: .5em;
 }
     
 @media screen and (max-width:640px) {
