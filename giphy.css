@@ -40,20 +40,31 @@ li {
     cursor: pointer;
 }
 
-/* .nav-menu ul li{
+.nav-menu ul li{
     padding: 10px 20px;
     color: #ccc;
     font-size: 20px;
     list-style-type: none;
     cursor: pointer;
-} */
-
+}
+      
 .nav-menu ul li:hover{
     color: #fff;
     font-weight: bold;
 }
-
+    
 @media screen and (max-width:640px) {
+    .nav .nav-title{
+        text-align: center;
+        width: 100%;
+    }
+    .nav .nav-menu li {
+        width: 100%;
+        text-align: center;
+    }
+}
+        
+@media screen and (max-width: 960px) {
     .nav .nav-title{
         text-align: center;
         width: 100%;
