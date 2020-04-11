@@ -1,5 +1,5 @@
 Link to website: 
-https://github.com/Alba599/giphy-project
+https://github.com/Alba599/giphy-project.git
 
 User Stores:
 
