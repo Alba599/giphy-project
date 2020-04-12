@@ -31,8 +31,8 @@
     <p>Search GIF below</p>
 
     <div class="se-su">
-        <input id="search" type="search" />
-        <button id="submit" onclick="addElement()">Submit</button>
+        <input id="search" type="text" onkeypress="return /([a-z]|\s)/i.test(event.key)" />
+        <button id="submit">Submit</button>
     </div>
 
     <p id="textBox"></p>
