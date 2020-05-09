@@ -1,0 +1,24 @@
+{
+  "name": "giphy-project",
+  "version": "1.0.0",
+  "description": "Link to website: \r  https://alba599.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alba599/giphy-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alba599/giphy-project/issues"
+  },
+  "homepage": "https://alba599.github.io/giphy-project",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
